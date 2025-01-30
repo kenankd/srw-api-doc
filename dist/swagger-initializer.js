@@ -7,6 +7,7 @@ window.onload = function() {
     dom_id: '#swagger-ui',
     deepLinking: true,
     filter: true,
+    supportedSubmitMethods: [],
     presets: [
       SwaggerUIBundle.presets.apis
     ],
