@@ -6507,9 +6507,3 @@ components:
       type: array
       items:
         $ref: '#/components/schemas/SnapshotResponseSingle'
-
-  securitySchemes:
-    apiKey:
-      type: apiKey
-      in: header
-      name: SW-API-Token
